@@ -14,7 +14,12 @@ function fullpage_init() {
 
 
 function leave(index, direction) {
-
+    var delay = setInterval(function() {
+        $('#shapes img').attr({
+            src: 'Resources/shapes1.png'
+        });
+        clearInterval(delay);
+    }, 350);
 }
 
 

@@ -1,0 +1,42 @@
+#menu li {
+	display:inline-block;
+	margin: 10px;
+	color: #fff;
+	position: relative;
+}
+
+#menu li.active{
+}
+
+#menu li a{
+	text-decoration:none;
+	color: #fff;
+}
+
+#menu li a:hover{
+	color: #990000;
+}
+
+#menu li:hover{
+}
+
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+
+#menu li.active a{
+	color: #990000;
+}
+
+#menu{
+	position:fixed;
+	bottom:30px;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}

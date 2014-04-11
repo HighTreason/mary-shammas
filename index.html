@@ -1,8 +1,9 @@
 <html>
 		<head>
 		<link rel="stylesheet" type="text/css" href="fullPage.js-master/jquery.fullPage.css" />
-		<link rel="stylesheet" type="text/css" href="css/menu.css" />
 		<link rel="stylesheet" type="text/css" href="css/main-page.css" />
+		<link rel="stylesheet" type="text/css" href="css/menu.css" />
+		<link rel="stylesheet" type="text/css" href="css/shapes.css" />		
 		<link rel="stylesheet" type="text/css" href="css/dynacloud.css" />
 		<link rel="stylesheet" type="text/css" href="jquery.fancybox/source/jquery.fancybox.css" />
 		<link rel="stylesheet" type="text/css" href="jquery.fancybox/source/helpers/jquery.fancybox-thumbs.css" />
@@ -36,10 +37,12 @@
 
 					afterShow : function() {
 						$.fn.fullpage.setAllowScrolling(false);
+						$.fn.fullpage.setKeyboardScrolling(false);
 					},
 
 					afterClose : function() {
 						$.fn.fullpage.setAllowScrolling(true);
+						$.fn.fullpage.setKeyboardScrolling(true);
 					},
 
 					openEffect : 'elastic',
@@ -73,6 +76,9 @@
 					<li data-menuanchor="protfolio"><a href="#protfolio">Portfolio</a>
 				</li>
 			</ul>
+			<div id="shapes">
+				<img src="Resources/shapes.png">
+			</div>
 			<div>
 				
 				<div class="dynacloud" style="display:none;">

@@ -1,0 +1,11 @@
+#shapes {
+	position:fixed;
+	right: 100px;
+	bottom: 0px;
+	height: 800px;
+	z-index: 71;
+}
+
+#shapes img{
+	height: 100%;
+}

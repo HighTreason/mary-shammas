@@ -1,3 +1,14 @@
+#menu{
+	position:fixed;
+	bottom:30px;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
 #menu li {
 	display:inline-block;
 	margin: 10px;
@@ -28,15 +39,4 @@
 
 #menu li.active a{
 	color: #990000;
-}
-
-#menu{
-	position:fixed;
-	bottom:30px;
-	left:0;
-	height: 40px;
-	z-index: 70;
-	width: 100%;
-	padding: 0;
-	margin:0;
 }
